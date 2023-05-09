@@ -1,3 +1,8 @@
+
+let valor1 = Number(prompt('Digite um número:'))
+let valor2 = Number(prompt('Digite outro número:'))
+
+
 const soma = (valor1,valor2) =>{
 
     const somatorio = valor1 + valor2
@@ -6,7 +11,7 @@ const soma = (valor1,valor2) =>{
 
 }
 
-console.log(soma(30,20))
+console.log(soma(valor1,valor2))
 
 //-----------------------------------------------
 
@@ -18,7 +23,7 @@ const subtracao = (valor1,valor2) =>{
 
 }
 
-console.log(subtracao(30,20))
+console.log(subtracao(valor1,valor2))
 
 //-----------------------------------------------
 
@@ -30,7 +35,7 @@ const multiplica = (valor1,valor2) =>{
 
 }
 
-console.log(multiplica(30,20))
+console.log(multiplica(valor1,valor2))
 
 //-----------------------------------------------
 
@@ -42,4 +47,4 @@ const divisao = (valor1,valor2) =>{
 
 }
 
-console.log(divisao(30,20))
+console.log(divisao(valor1,valor2))
